@@ -1,0 +1,48 @@
+.body{
+    background-color: black;
+    animation-name: body ;
+    animation-duration: 7s
+
+}
+
+@keyframes body {
+    from {background-color:blue;}
+    to {background-color: green;}
+  }
+
+
+
+
+.container, .btn-container, .watch{
+    
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#start-btn, #reset-btn {
+    
+    color: white;
+    font-size: 28px;
+    background-color: black;
+    border: 2px solid darkgrey;
+    border-radius: 50px;
+    
+}
+
+
+
+
+
+
+.separ{
+
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
